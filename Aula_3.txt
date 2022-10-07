@@ -1,0 +1,106 @@
+    1  ls
+    2  ls -a
+    3  ls ..
+    4  pwd
+    5  cd Desktop/
+    6  pwd
+    7  cd ..
+    8  cd Desktop/
+    9  cd 
+   10  cd D
+   11  cd Desktop/
+   12  mkdir comandos
+   13  ls
+   14  cd comandos/
+   15  mkdir pasta nova
+   16  ls
+   17  mkdir "pasta nova"
+   18  ls
+   19  mkdir -p new/old
+   20  ls
+   21  ls new
+   22  rm -r nova pasta
+   23  rm -r new
+   24  ls
+   25  mv "pasta nova" pasta_nova
+   26  ls
+   27  mkdir new
+   28  ls
+   29  mv new pasta_nova/
+   30  ls
+   31  ls pasta_nova
+   32  cd ..
+   33  cd comandos/
+   34  touch arquivo.txt
+   35  ls arquivo.txt
+   36  ls
+   37  cp arquivo.txt pasta_nova/
+   38  ls
+   39  ls pasta_nova/
+   40  echo "mensagem"
+   41  echo "mensagem" > comando.txt
+   42  cat comando.txt
+   43  cat
+   44  cat > comando.txt
+   45  cat comando.txt
+   46  cat >> comando.txt
+   47  cat comando.txt
+   48  help cd
+   49  clear
+   50  history
+   51  histoy 5
+   52  history 7
+   53  history > historico.txt
+   54  cat historico.txt
+   55  git log
+   56  git add .
+   57  cd Deskotp/
+   58  git config --global user.name "yerly"
+   59  git config --global user.email "ydomana@gmail.com"
+   60  git config user.name
+   61  cd Desktop/
+   62  mkdir curso_Git
+   63  cd curso_git
+   64  cd curso_Git
+   65  clear
+   66  git confing --global user.name "yerly"
+   67  clear
+   68  git confing --global user.name "yerly"
+   69  git confing --global user.email "ydomana@gmail.com"
+   70  git confing user.name
+   71  clear
+   72  git config --global user.name "yerly"
+   73  git config --global user.email "ydomana@gmail.com"
+   74  git config user.name
+   75  cd Desktop/
+   76  mkdir curso_Git
+   77  cd curso_Git/
+   78  git config user.name
+   79  git init
+   80  git status
+   81  echo "#Aprendendo usar o Git" > readme.md
+   82  git status
+   83  git add readme.md
+   84  git status
+   85  git commit -m "commit inicial"
+   86  git status
+   87  echo "##Aula 1" >> readme.md
+   88  git status
+   89  echo "yerly" > participantes.txt
+   90  git status
+   91  git add .
+   92  git status
+   93  git restore --staged participantes.txt
+   94  git status
+   95  git add participantes.txtm
+   96  git status
+   97  git add participantes.txt
+   98  git status
+   99  git restore --staged .
+  100  git status
+  101  git commit -am "Alteração no readme"
+  102  git status
+  103  git add participantes.txt
+  104  git status
+  105  git commit -m "Adicionado participantes.txt"
+  106  history > Aula_3.txt
