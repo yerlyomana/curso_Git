@@ -1,0 +1,115 @@
+    1  ls
+    2  ls -a
+    3  ls ..
+    4  pwd
+    5  cd Desktop/
+    6  pwd
+    7  cd ..
+    8  cd Desktop/
+    9  cd 
+   10  cd D
+   11  cd Desktop/
+   12  mkdir comandos
+   13  ls
+   14  cd comandos/
+   15  mkdir pasta nova
+   16  ls
+   17  mkdir "pasta nova"
+   18  ls
+   19  mkdir -p new/old
+   20  ls
+   21  ls new
+   22  rm -r nova pasta
+   23  rm -r new
+   24  ls
+   25  mv "pasta nova" pasta_nova
+   26  ls
+   27  mkdir new
+   28  ls
+   29  mv new pasta_nova/
+   30  ls
+   31  ls pasta_nova
+   32  cd ..
+   33  cd comandos/
+   34  touch arquivo.txt
+   35  ls arquivo.txt
+   36  ls
+   37  cp arquivo.txt pasta_nova/
+   38  ls
+   39  ls pasta_nova/
+   40  echo "mensagem"
+   41  echo "mensagem" > comando.txt
+   42  cat comando.txt
+   43  cat
+   44  cat > comando.txt
+   45  cat comando.txt
+   46  cat >> comando.txt
+   47  cat comando.txt
+   48  help cd
+   49  clear
+   50  history
+   51  histoy 5
+   52  history 7
+   53  history > historico.txt
+   54  cat historico.txt
+   55  git log
+   56  git add .
+   57  cd Deskotp/
+   58  git config --global user.name "yerly"
+   59  git config --global user.email "ydomana@gmail.com"
+   60  git config user.name
+   61  cd Desktop/
+   62  mkdir curso_Git
+   63  cd curso_git
+   64  cd curso_Git
+   65  clear
+   66  git confing --global user.name "yerly"
+   67  clear
+   68  git confing --global user.name "yerly"
+   69  git confing --global user.email "ydomana@gmail.com"
+   70  git confing user.name
+   71  clear
+   72  clear
+   73  git branch
+   74  git checkout -b feature
+   75  git branch
+   76  touch nova_feature
+   77  git status
+   78  git add nova_feature
+   79  git commit -m "Adicionando nova feature"
+   80  git log
+   81  git checkout master
+   82  git status
+   83  git log
+   84  touch continuando_master
+   85  git add continuando_master
+   86  git commit -m "Adicionando continuação na master"
+   87  git log
+   88  git checkout feature
+   89  git log
+   90  git checkout -b feature2 master
+   91  git log
+   92  git checkout -d festure2
+   93  git checkout -d feature2
+   94  git checkout feature2
+   95  git log
+   96  git branch -d feature2
+   97  git checkout master
+   98  git branch -d feature2
+   99  git log
+  100  git checkout feature2
+  101  clear
+  102  git checkout feature
+  103  git log --pretty=oneline --graph
+  104  git log --pretty=oneline --graph
+  105  git merge master
+  106  cd Desktop/
+  107  cd curso_Git/
+  108  git init
+  109  git merge master
+  110  git log
+  111  git reset --hard HEAD~
+  112  git log --pretty=oneline --graph
+  113  git rebase master
+  114  git log --pretty=oneline --graph
+  115  history > Aula_5.txt
